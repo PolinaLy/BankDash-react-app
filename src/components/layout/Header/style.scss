@@ -1,0 +1,10 @@
+@import "../../../index.scss";
+
+.header {
+    position: relative;
+    background-color: $back-color-basic;
+
+    &__menu {
+        position: absolute;
+    }
+}

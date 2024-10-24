@@ -1,0 +1,61 @@
+@import "../../../index.scss";
+
+.menu {
+    top: 100%;
+    left: 0;
+    max-width: 250px;
+    width: 250px;
+    height: 100vh;
+    min-height: 555px;
+
+    background-color: $back-color-basic;
+
+    @media (max-width: 820px) {
+        display: none;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 11px 0 0;
+
+    }
+
+    &__item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        color: $color-menu;
+        padding: 19px 0 20px 44px;
+       
+        &_active {
+            color: $color-active;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 6px;
+                height: 100%;
+                background-color: $color-active;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+        }
+
+        &-link {
+            color: currentColor;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &-img {
+            fill: currentColor;
+        }
+    }
+
+    
+}

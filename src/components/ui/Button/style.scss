@@ -1,0 +1,21 @@
+@import "../../../index.scss";
+
+.btn {
+    min-width: 190px;
+    padding: 14px 20px;
+    box-sizing: border-box;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: $color-active;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+    @media (max-width: 820px) {
+        max-height: 40px;
+        padding: 11px 20px;
+        font-size: 15px;
+    }
+}

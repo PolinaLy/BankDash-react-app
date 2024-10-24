@@ -1,0 +1,12 @@
+@import "../../../index.scss";
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-right: 23px;
+    color: $color-primary;
+
+    @media (max-width: 820px) {
+        display: none;
+    }
+}

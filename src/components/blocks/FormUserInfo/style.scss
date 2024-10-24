@@ -1,0 +1,71 @@
+@import "../../../index.scss";
+
+.form-user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 29px;
+    row-gap: 21px;
+
+    @media (max-width: 986px) {
+        row-gap: 16px;
+    }
+
+    @media (max-width: 986px) {
+        justify-content: center;
+    }
+
+    &__block-input {
+        position: relative;
+    }
+
+    &__label {
+        display: block;
+
+        @media (max-width: 820px) {
+            width: 100%;
+            font-size: 13px;
+        }
+    }
+
+    &__input {
+        margin-top: 11px;
+
+        @media (max-width: 820px) {
+            margin-top: 9px;
+        }
+    }
+
+    &__date {
+        position: absolute;
+        right: 25px;
+        bottom: 22px;
+        height: 13px;
+        background-color: $back-color-basic;
+        border: 0;
+        border-bottom: 2px solid #718EBF;
+        border-right: 2px solid #718EBF;
+        transform: rotate(45deg);
+
+        @media (max-width: 820px) {
+            right: 20px;
+            bottom: 18px;
+        }
+    }
+
+    &__btn {
+        margin-left: auto;
+        margin-top: 10px;
+
+        @media (max-width: 986px) {
+            margin-left: 0;
+        }
+
+        @media (max-width: 820px) {
+            width: 100%;
+        }
+    }
+
+    
+   
+}

@@ -1,0 +1,86 @@
+@import "../../../index.scss";
+
+.main {
+    &__container {
+        margin: 30px 40px 30px 290px;
+        padding: 30px;
+        background-color: $back-color-basic;
+        border-radius: 25px;
+
+        @media (max-width: 820px) {
+            padding: 15px 20px;
+            margin: 25px;
+        }
+    }
+
+    &__user-info {
+        display: flex;
+        gap: 5.125%;
+        margin-top: 54px;
+
+        @media (max-width: 986px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        @media (max-width: 820px) {
+            margin-top: 22px;
+            gap: 22px;
+        }
+    }
+
+    &__avatar-container {
+        position: relative;
+        height: fit-content;
+        margin-top: 4px;
+
+        @media (max-width: 820px) {
+            margin-right: 5px;;
+        }
+    }
+
+    &__avatar-image {
+        @media (max-width: 820px) {
+            width: 170px;
+            height: auto;
+        }
+    }
+
+    &__avatar-edit {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 16px;
+        right: -2px;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        background-color: $color-active;
+        border: 0;
+        border-radius: 50%;
+        cursor: pointer;
+
+        @media (max-width: 820px) {
+            bottom: 20px;
+            right: -5px;
+            width: 39px;
+            height: 39px;
+        }
+
+       &::after {
+            content: "";
+            position: absolute;
+            top: auto;
+            left: auto;
+            right: auto;
+            bottom: auto;
+            width: 15px;
+            height: 15px;
+            background: url("../../../assets/pencil.svg");
+            background-repeat: no-repeat;
+        }
+    }
+
+
+}

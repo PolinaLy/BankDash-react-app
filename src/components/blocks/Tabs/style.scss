@@ -1,0 +1,13 @@
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #F4F5F7;
+
+    @media (max-width: 820px) {
+        gap: 28px;
+    }
+}
