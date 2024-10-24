@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BankDash-react-app/static/css/main.11e2a628.css",
+    "main.js": "/BankDash-react-app/static/js/main.0b259804.js",
+    "static/js/453.56f46472.chunk.js": "/BankDash-react-app/static/js/453.56f46472.chunk.js",
+    "static/media/Inter-Regular.woff": "/BankDash-react-app/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
+    "static/media/Inter-Regular.woff2": "/BankDash-react-app/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "static/media/avatar.jpg": "/BankDash-react-app/static/media/avatar.064c93e206da676641e7.jpg",
+    "static/media/sprite.svg": "/BankDash-react-app/static/media/sprite.92029ee932f026726648c936336a6ffd.svg",
+    "static/media/logo.svg": "/BankDash-react-app/static/media/logo.59819d18a2050a9cc87a48618753aea4.svg",
+    "static/media/setting-button.svg": "/BankDash-react-app/static/media/setting-button.3099b97e8224a3b45ec80dff0514b53e.svg",
+    "static/media/notification.svg": "/BankDash-react-app/static/media/notification.8680dfecc1ea7acd4d23f00c2cffadf7.svg",
+    "static/media/pencil.svg": "/BankDash-react-app/static/media/pencil.f9a9eff99f27cdc38bf9.svg",
+    "static/media/search.svg": "/BankDash-react-app/static/media/search.99e5a2a1a760ad1ffd01.svg",
+    "index.html": "/BankDash-react-app/index.html",
+    "main.11e2a628.css.map": "/BankDash-react-app/static/css/main.11e2a628.css.map",
+    "main.0b259804.js.map": "/BankDash-react-app/static/js/main.0b259804.js.map",
+    "453.56f46472.chunk.js.map": "/BankDash-react-app/static/js/453.56f46472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11e2a628.css",
+    "static/js/main.0b259804.js"
+  ]
+}
